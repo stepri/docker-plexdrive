@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER wiserain
 
 # global environment settings
-ENV PLEXDRIVE_VERSION="5.0.0"
+ENV PLEXDRIVE_VERSION="4.0.0"
 ENV PLATFORM_ARCH="amd64"
 
 # s6 environment settings
