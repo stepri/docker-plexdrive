@@ -7,5 +7,5 @@ else
   echo "Setup Plexdrive"
   printf "==============================================================\n\n\n"
 
-  plexdrive mount -c /config/ --uid=$PUID --gid=$PGID /data --mongo-host mongo
+  plexdrive mount -c /config/ --uid=$PUID --gid=$PGID /data
 fi
